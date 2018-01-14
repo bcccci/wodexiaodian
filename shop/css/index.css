@@ -5,9 +5,26 @@
         margin: 0;
         padding: 0;}
     a{
-        text-decoration: 0;}
+        text-decoration: none;}
     img{
         bottom: 0;}
     li{
         list-style: none}
     /*css÷ÿ÷√Ω· ¯*/
+#header{
+    background: url("../img/banner.jpg") no-repeat center center;
+    height: 600px;
+}
+#login,#header h1{
+    color: #fff;
+}
+#cart{
+    background: #000;
+    opacity: 0.5;
+    color: #ffffff;
+    width: 260px;
+    height: 30px;
+    text-align: center;
+    padding: 10px  20px;
+    cursor: pointer;
+}
