@@ -25,18 +25,18 @@
     color: #fff;
     width: 380px;
 }
-#cart{
-    background: #000;
-    opacity: 0.5; /*透明度*/
-    color: #ffffff;
+#main-header #cart{
     width: 260px;
     height: 30px;
+    background: #000 url(../img/cart.png) 230px center no-repeat;
+    opacity: 0.5; /*透明度*/
+    color: #ffffff;
     text-align: center;
     padding: 10px  20px;
     cursor: pointer; /*小手*/
     float: left;
     margin-top: 25px;
-    line-height: 0px;
+    line-height: 30px;
     margin-left: 70px;
     margin-bottom: 50px;
 }
