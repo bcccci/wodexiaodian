@@ -15,6 +15,12 @@
     background: url("../img/banner.jpg") no-repeat center center;
     height: 600px;
 }
+#login a:hover{
+        text-decoration: underline;
+}
+#login a{
+    color: #fff;
+}
 #login,#header h1{
     color: #fff;
     width: 380px;
@@ -29,12 +35,19 @@
     padding: 10px  20px;
     cursor: pointer; /*–° ÷*/
     float: left;
+    margin-top: 25px;
+    line-height: 0px;
 }
 #header .float{
     float: left;
 }
 #header .wrapple{
-    height: 100%;
+    width: 1140px;
+    height:100%;
     background: #cccccc;
-
+    margin: 0 auto;
  }
+#main-header{
+    height: 100px;
+    line-height: 100px;
+}
