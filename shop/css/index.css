@@ -17,14 +17,24 @@
 }
 #login,#header h1{
     color: #fff;
+    width: 380px;
 }
 #cart{
     background: #000;
-    opacity: 0.5;
+    opacity: 0.5; /*透明度*/
     color: #ffffff;
     width: 260px;
     height: 30px;
     text-align: center;
     padding: 10px  20px;
-    cursor: pointer;
+    cursor: pointer; /*小手*/
+    float: left;
 }
+#header .float{
+    float: left;
+}
+#header .wrapple{
+    height: 100%;
+    background: #cccccc;
+
+ }
