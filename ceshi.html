@@ -1,23 +1,37 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <style type="text/css">
-        div
-        {
-            background-color:#00FFFF;
-            width:150px;
-            height:150px;
-            overflow: hidden
-        }
-    </style>
+
 </head>
 
 <body>
-<p>如果元素中的内容超出了给定的宽度和高度属性，overflow 属性可以确定是否显示滚动条等行为。</p>
+<form action="">
+    <p>
+        <!--<input type="radio"/>              单选框-->
+        性别：
+        <input type="radio"name="sxe"/>男 <br/>
+        <input type="radio"name="sxe"/>女
 
-<div>
-    这个属性定义溢出元素内容区的内容会如何处理。如果值为 scroll，不论是否需要，用户代理都会提供一种滚动机制。因此，有可能即使元素框中可以放下所有内容也会出现滚动条。默认值是 visible。
-</div>
+
+
+        <!--<input type="checkbox"/>          多选框-->
+        爱好:
+        <input type="checkbox" name="hobby"/>篮球 <br/>
+        <input type="checkbox"name="hobby"/>足球 <br/>
+        <input type="checkbox"name="hobby"/>羽毛球
+
+        <!--<input type="select"/>           下拉菜单-->
+        学校：
+        <select name="" id="">
+            <option value="">1</option>
+            <br/>
+            <option value="">2</option>
+            <br/>
+            <option value="">3</option>
+        </select>
+
+    </p>
+</form>
 </body>
 
 </html>
