@@ -1,0 +1,189 @@
+Ctrl+z   撤销
+Ctrl+d  复制行
+Crtl+x   删除行
+Ctre+/ 注释
+Shift+enter  开始下一行
+
+
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+
+</body>
+</html>
+
+
+<meta name="keywords" content=" roseonly,roseonly官网,roseonly
+<meta name="description" content="中国高端鲜花玫瑰品牌roseonly。roseonly官网以皇
+<title>我的小店</title>
+
+
+
+
+视频2-
+标签
+h1~h6  普通文字大小
+a 超链接
+<a href="http://www.baidu.com"target="_blank">haha</a>
+herf-：链接  target-blank：在新窗口打开
+Img：加入图片
+<img src="123.jpg" alt="jjjjj" title="6666"/>
+Src：图片的位置名称 alt：不能正常显示 出现的提示 title：光标放在图片上出现的说明
+ol   有序列表 生成标签
+li   123
+ul   无序标签
+li   点点点
+div 布局
+table 表格
+p 段  两段中间有间距 单独一行
+span 段   两段在一行
+标签都是矩形的
+行级元素（inline）span a  img 行级元素宽高是被内容撑开的  行级元素会在一行显示
+块级元素（block） h1~h6  div  p li ol ul table  块级元素可以设置宽高 不设置宽的时候就是充满他的 父元值 自己一行
+行级元素不能包括块级元素
+&lt;    <
+&gt;    >
+&nbsp;  空格
+
+
+
+视频3
+Css选择器
+1元素/标签选择器               h1{}
+h2{
+background: #ff0000;
+}
+
+<h2>66666</h2>
+
+2 id选择器                     #id{}              Id=
+#aa{
+background: red;
+}
+
+<h1 id="aa">aaaa</h1>
+
+3 class/类选择器        .xx           class=xx
+.haha{
+color: white;
+}
+
+<h1 id="bb" class="haha">bbbb</h1>
+<h1 id="cc" class="haha">cccc</h1>
+
+选择器的权重值：id选择器权重值100
+Class选择器权重值10
+标签选择器权重值1
+4 后代选择器
+h1 div{color: aqua;
+}
+
+<h1>
+    <div>456</div>
+</h1>
+5子代选择器
+h2 >p{color: red;;
+}
+
+<h2>
+    <p>567</p>
+</h2>
+孙子不行 只有子代有效
+6多类选择器
+7分组选择器
+8伪类选择器
+：hover（兼容性问题） 在早期ie只支持a
+以a为例
+a:link {color: #FF0000}		/* 未访问的链接 */
+a:visited {color: #00FF00}	/* 已访问的链接 */
+a:hover {color: #FF00FF}	/* 鼠标移动到链接上 */
+a:active {color: #0000FF}	/* 选定的链接 */
+
+
+
+
+
+<h1 style="background: red;color:white;width：200px；height：200px">hhhh</h1>
+Style 风格  background 背景颜色 color 字体颜色 width  宽
+<!-- -->
+注释快捷键ctrl+/
+
+
+添加样式三种常用方法
+内联样式
+<h1 style="background: red;color:white;width: 200px;height:200px">hhhh</h1>
+
+
+
+内部样式
+<style>
+    h1{
+        background: red;
+        width: 200px;
+        height: 200px;
+        color: white;
+    }
+</style>
+外部样式
+<!-- 外部样式-->
+<link rel="stylesheet" href="style.css"/>
+指定一个外部的css文件  link： 建立关系
+
+
+
+
+Float: left/right   浮动 浮动的元素 空间塌陷
+Clear：left/right/both  清楚浮动
+元素塌陷：子元素脱离文档流 父元素 没有高度
+1.	给父元素固定高度
+2.	给父元素也浮动
+Display    行级元素块级元素 转换（具有兼容性）
+Display：inline
+Display：block
+Display:none
+Display：inline-block
+text-align: center;
+文字居中
+
+Vertical-align:top/bottom/middle
+给图片添加的
+
+line-height: 100px;
+行间距
+opacity: 0.5; /*透明度*/
+
+Padding 内边距
+Border边框
+Margin 外边距
+Margin-top
+li{
+list-style: none}
+li去掉点点点
+position：
+相对定位relative相对初始位置定位不脱离文档流
+top:20px;
+left:20px:
+绝对定位absolute:相对于离他最近的已经定位的祖先元素 脱离文档流
+固定定位fixed 相对于浏览器   有兼容性
+默认值static
+font-size: 30px;
+/*字体大小*/
+
+text-indent: 10px;
+/*文本缩进*/
+
+outline: none;
+/* 去除边框外面的线*/
+
+text-decoration: underline; /*鼠标放上面有小横线*/
+
+
+font-weight: bolder;
+/*字体加粗*/
+
+
+
