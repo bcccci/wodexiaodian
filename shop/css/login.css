@@ -1,0 +1,59 @@
+/*header¿ªÊ¼*/
+#header {
+    background: url(../img/banner33.jpg) no-repeat center;
+    height: 250px;
+}
+/*header½áÊø*/
+#login-container form{
+    width: 570px;
+    height: 290px;
+    float: left;
+}
+#login-container h2{
+    margin: 20px 0;
+}
+#login-container h5{
+    color: #5d5959;
+    font-size: 20px;
+}
+#login-container form label input{
+    width: 400px;
+    height: 38px;
+    text-indent: 10px;
+    outline: none;
+    font-size: 20px;
+}
+#login-container label{
+    padding: 20px;
+}
+#login-container input[value=login]{
+    width: 114px;
+    height: 41px;
+    background: orange;
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 0;
+}
+#login-container input[value=login]:hover{
+    width: 114px;
+    height: 41px;
+    background: #ffffff;
+    color: #000;
+    margin-top: 20px;
+    font-size: 20px;
+    border: 1px solid #000000;
+}
+#login-container #forget{
+    font-size: 15px;
+    color: #5d5959;
+    text-decoration:underline;
+    display: block;
+    margin-top: 20px;
+}
+#register{
+    width: 540px;
+    float: right;
+
+
+}
