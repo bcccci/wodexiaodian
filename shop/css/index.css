@@ -46,7 +46,7 @@
 #header h1.float{
     text-align: center;
 }
-#header .wrappler{
+#header .wrapplerr{
     /*width: 1140px;*/
     /*height:100%;*/
     /*background: #cccccc;*/
@@ -95,6 +95,11 @@
     left: -120px;
 }
 /*main-header½áÊø*/
+
+
+
+
+
 
 /*new-product¿ªÊ¼*/
 #new-product{
@@ -182,7 +187,7 @@
 #problem{
     height: 400px;
 }
-#problem .wrapple{
+#problem .wrappler{
     width: 1000px;
     /*background:gray;*/
 
@@ -196,7 +201,7 @@
     margin-left: 150px;
     float: left;
 }
-#problem .wrapple #problem-menu li{
+#problem .wrappler #problem-menu li{
     list-style:disc;
     font-size: 20px;
     color: #ffffff;
