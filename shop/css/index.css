@@ -1,16 +1,4 @@
-/*css重置开始*/
-    body{
-        margin: 0;}
-    *{
-        margin: 0;
-        padding: 0;}
-    a{
-        text-decoration: none;}
-    img{
-        bottom: 0;}
-    li{
-        list-style: none}
-    /*css重置结束*/
+/*header开始*/
 #header{
     background: url("../img/banner.jpg") no-repeat center center;
     height: 600px;
