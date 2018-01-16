@@ -96,12 +96,20 @@ h2 >p{color: red;;
 6多类选择器
 7分组选择器
 8伪类选择器
+
 ：hover（兼容性问题） 在早期ie只支持a
 以a为例
 a:link {color: #FF0000}		/* 未访问的链接 */
 a:visited {color: #00FF00}	/* 已访问的链接 */
 a:hover {color: #FF00FF}	/* 鼠标移动到链接上 */
 a:active {color: #0000FF}	/* 选定的链接 */
+9属性选择器
+<style>
+    div[id]{
+    }
+</style>
+<div id="div1"></div>
+<div>div2</div>
 
 
 
@@ -141,6 +149,9 @@ Clear：left/right/both  清楚浮动
 元素塌陷：子元素脱离文档流 父元素 没有高度
 1.	给父元素固定高度
 2.	给父元素也浮动
+
+
+
 Display    行级元素块级元素 转换（具有兼容性）
 Display：inline
 Display：block
@@ -186,7 +197,7 @@ font-weight: bolder;
 /*字体加粗*/
 
 <br/>  换行
-点击文字也可以选中文本框   方法一
+点击文字也可以选中文本框   方法一       form表单
 <form action="">
         <label for="username">
             用户名：<input type="text" id="username"/><br/>
