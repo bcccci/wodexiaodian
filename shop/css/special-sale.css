@@ -5,6 +5,9 @@
 }
 /*header½áÊø*/
 /*brand¿ªÊ¼*/
+#brand{
+    height: 300px;
+}
 #brand h3{
     height: 60px;
     font-size: 30px;

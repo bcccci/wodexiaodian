@@ -54,6 +54,7 @@
 #register{
     width: 540px;
     float: right;
-
-
+}
+#login-container{
+    height: 400px;
 }

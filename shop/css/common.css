@@ -47,7 +47,7 @@ li{
     margin-left: 70px;
     margin-bottom: 50px;
 }
-#header .float{
+.float{
     float: left;
 }
 #header h1.float{
@@ -102,3 +102,26 @@ li{
     left: -120px;
 }
 /*main-header结束*/
+/*footer开始*/
+#footer{
+    height: 80px;
+    background: pink;
+    position: relative;
+}
+#footer h2{
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 400px;
+}
+#footer h2:hover{
+    color: #000000;;
+}
+#footer h4{
+    color: white;
+    position: absolute;
+    top:30px;
+    right: 290px;
+}
+}
+/*footer结束*/

@@ -1,0 +1,65 @@
+/*header开始*/
+#header {
+    background: url(../img/banner33.jpg) no-repeat center;
+    height: 250px;
+}
+/*header结束*/
+/*form开始*/
+#register-info{
+    height: 700px;
+}
+#register-info h2{
+    margin: 30px 0;
+}
+#register-info p{
+    margin: 30px 0;
+    color: #999;
+}
+#register-info #here{
+    color: #000;
+}
+#register-info #here:hover{
+    color: pink;
+    text-decoration: underline;
+}
+#register-info .option{
+    width: 150px;
+    float: left;
+}
+#register-info form{
+    width: 555px;
+    height: 318px;
+}
+#register-info input{
+    width: 400px;
+    height: 38px;
+    margin-bottom: 10px;
+    text-indent: 10px;
+    outline: none;
+}
+#register-info input[type=submit]{
+    width: 440px;
+    height: 42px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #ffffff;
+    background: orange;
+    border: 0;
+    border-radius:10px;
+}
+#register-info input[type=submit]:hover{
+    width: 440px;
+    height: 42px;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: #000000;
+    background: white;
+    border: 1px solid black;
+    border-radius:10px;
+}
+/*form结束*/
+#right{
+    width: 555px;
+    margin-left: 30px;
+    margin-top: 40px;
+}
