@@ -4,3 +4,60 @@
     height: 250px;
 }
 /*header½áÊø*/
+/*cart-container*/
+#cart-container{
+    height: 600px;
+    background: #efefef;
+}
+#cart-container .float{
+    float: left;
+}
+#cart-mine{
+    width: 855px;
+    height: 504px;
+}
+#cart-mine .cosmetic{
+    width: 134px;
+    height: 134px;
+    float:left;
+
+}
+#cart-price{
+    width: 285px;
+    height: 381px;
+}
+#cart-mine .detail{
+    width: 840px;
+    height: 104px;
+
+}
+#cart-mine .close{
+    float: right;
+}
+#cart-mine .cart-info{
+    float: left;
+    margin-left: 20px;
+}
+#quantity {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    width: 625px;
+    border-bottom: 1px solid #000000;
+    padding-bottom: 10px;
+}
+#quantity #money{
+    font-size: 25px;
+}
+#cart-mine input{
+    width: 82px;
+    height: 30px;
+    outline: none;
+    margin-left: 15px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: 1px solid #999999;
+}
+#cart-mine .time{
+    color: #999999;
+    margin-top: 25px;
+}
