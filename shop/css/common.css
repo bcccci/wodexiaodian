@@ -47,7 +47,7 @@ li{
     margin-left: 70px;
     margin-bottom: 50px;
 }
-.float{
+#header .float{
     float: left;
 }
 #header h1.float{
